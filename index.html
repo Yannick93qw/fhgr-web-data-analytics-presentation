@@ -1,48 +1,369 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>Gruppe 1 - FHGR Web Datan Analytics Präsentation</title>
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/night.css">
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h2>Exkurs: Kurze Vorstellung des von Ihnen gewählten Unternehmens</h2>
-					<ul>
-						<li>Stellen Sie kurz Ihr gewähltes Unternehmen vor (Name, Geschäftstätigkeit, Grösse, Märkte, verwendete
-						Digitalkanäle)</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Web-Key Performance Indicators (KPIs) auf Management-Ebene</h2>
-					<ul>
-						<li>Schlagen Sie vor, welche KPIs das Unternehmen zur Überwachung des Web-Business einsetzen sollte</li>
-						<li>Begründen Sie die Auswahl der KPIs, bzw. leiten Sie diese her</li>
-					</ul>
-				</section>
-				<section>
-					<h2>Mögliches Dashboard für das Management</h2>
-					<ul>
-						<li>Stellen Sie einen visuellen Entwurf eines Dashboards fürs Management vor (auf Basis der KPIs, mit
-						visuellen Gestaltungselementen)</li>
-						<li>Erläutern Sie Ihre Überlegungen in Ihrer Ausgestaltung</li>
-					</ul>
-				</section>
-			<section data-background-iframe="https://yannick93qw.github.io/fhgr-web-data-analytics-dashboard/#/dashboard" data-background-interactive></section>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Gruppe 1 - FHGR Web Datan Analytics Präsentation</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400;700&display=swap');
+	</style>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/night.css">
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="dist/main.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
 			<section>
-				<h2>Business-Case für Digital Analytics</h2>
+				<h1 class="r-fit-text">Unternehmensvorstellung</h1>
+			</section>
+			<section>
+				<img src="./dist/dashboard-header-logo.svg" alt="">
+			</section>
+			<section>
+				<h2 class="r-fit-text">Unternehmensdaten - Über Udemy</h2>
 				<ul>
-					<li>Beschreiben Sie die notwendige Investition für die vorgeschlagene Lösung (z.B. Lizenzen, einmalige
-					Aufwände, wiederkehrende Aufwände)</li>
-					<li>Beschreiben Sie den potenziellen Nutzen und argumentieren Sie für die Investition/Einführung von
-					Digital Analytics</li>
+					<li>Führende globale Online-Plattform</li>
+					<li>Hauptbusiness in MOOC (Massive open online courses)</li>
+					<li>Weltweit operierend; Niederlassungen in San Francisco, Ankara, Dublin, Sao Paulo, Denver und
+						Gurgaon</li>
+					<li>Verfügbar über Website oder via Android, bzw. iOS-App</li>
+				</ul>
+			</section>
+			<section>
+				<h2 class="r-fit-text">Unternehmensdaten - Kennzahlen</h2>
+				<ul>
+					<li>
+						<p><span class="important-text">44 Millionen</span> Teilnehmer</p>
+					</li>
+					<li>
+						<p><span class="important-text">75</span> Sprachen</p>
+					</li>
+					<li>
+						<p><span class="important-text">65 Tausend</span> Dozenten</p>
+					</li>
+					<li>
+						<p><span class="important-text">183 Tausend</span> Kurse</p>
+					</li>
+					<li>
+						<p><span class="important-text">> 8.6 Millionen</span> Unternehmenskunden</p>
+					</li>
+					<li>
+						<p><span class="important-text">594 Millionen</span> Kurseinschreibungen</p>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h2 class="r-fit-text">Unternehmensdaten - Kursangebot</h2>
+				<ul>
+					<li>
+						Diverse Kurse von "Integralrechnung" bis "Konfliktlösungen im Mehrkatzenhaushalt"
+					</li>
+					<li>Kosenlose und kostenpflichtige Kurse</li>
+					<li>Anwendbar als Schüler, Lehrer oder auch als Firma</li>
+				</ul>
+			</section>
+			<section>
+				<h1 class="r-fit-text">KPI's auf Management-Ebene</h1>
+			</section>
+			<section>
+				<q class="r-fit-text" cite="https://about.udemy.com/">
+					Improving lives through learning
+				</q>
+				<p class="quoted-from">- Leitkredo von Udemy</p>
+			</section>
+			<section>
+				<h2 class="r-fit-text">Fokussierung auf 2 Globale Ziele des Unternehmens</h2>
+				<ul>
+					<li>Hauptziel 1: Das Verbinden von Lehrende und Lernende aus der ganzen Welt
+					</li>
+					<li>Hauptziel 2: Verkauf von möglichst vielen Kursen</li>
+				</ul>
+			</section>
+			<section>
+				<h1 class="r-fit-text">Hauptziel 1: Das Verbinden von Lehrende und Lernende aus der ganzen Welt - Lead
+					Generation</h1>
+				<table>
+					<thead>
+						<tr>
+							<th>Erfolgsfaktor</th>
+							<th>Aktivitäten</th>
+							<th>Performance Metrics</th>
+							<th>KPIs</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Vertrauen aufbauen</td>
+							<td>Testimonial Video</td>
+							<td>Anzahl Abspielungen, Dauer des Anschauens</td>
+							<td>Monatliche neue Leads</td>
+						</tr>
+						<tr>
+							<td>Vertrauen aufbauen</td>
+							<td>Kontoerstellung</td>
+							<td>Anzahl Log-In Transaktionen</td>
+							<td>Lead-to-Sale Conversion Rate</td>
+						</tr>
+						<tr>
+							<td>Vertrauen aufbauen</td>
+							<td>Blog lesen</td>
+							<td>Dauer des Anschauens</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Vertrauen aufbauen</td>
+							<td>Referenzen</td>
+							<td>Anzahl Klicks</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<h1 class="r-fit-text">Hauptziel 1: Das Verbinden von Lehrende und Lernende aus der ganzen Welt -
+					Personalgewinnung</h1>
+				<table>
+					<thead>
+						<tr>
+							<th>Erfolgsfaktor</th>
+							<th>Aktivitäten</th>
+							<th>Performance Metrics</th>
+							<th>KPIs</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Attraktives Arbeitgeberbild</td>
+							<td>Job Video</td>
+							<td>Anzahl Abspielungen</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Attraktives Arbeitgeberbild</td>
+							<td>Arbeit Übersicht</td>
+							<td>Durchschnittliche Verweildauer Bereich "Bei Udemy unterrichten"</td>
+							<td>Anzahl Besucher im Bereich "Bei Udemy unterrichten"</td>
+						</tr>
+						<tr>
+							<td>Einfache Bewerbung</td>
+							<td>Bewerbungsprozess</td>
+							<td>Klicks auf "Los geht's"</td>
+							<td>Anzahl Registrationen</td>
+						</tr>
+						<tr>
+							<td>Unterstützung durch Arbeitgeber</td>
+							<td>Dozenten-Support-Team</td>
+							<td>Anzahl Anfragen</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<h1 class="r-fit-text">Hauptziel 2: Verkauf von möglichst vielen Kursen -
+					Online Sales</h1>
+				<table>
+					<thead>
+						<tr>
+							<th>Erfolgsfaktor</th>
+							<th>Aktivitäten</th>
+							<th>Performance Metrics</th>
+							<th>KPIs</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Benutzerfreundlichkeit der Website</td>
+							<td>Einfache Navigation auf Website</td>
+							<td>Seitenladezeit</td>
+							<td>Anzahl gekaufte Kurse</td>
+						</tr>
+						<tr>
+							<td>Benutzerfreundlichkeit der Website</td>
+							<td>Attraktive Präsentation</td>
+							<td>Besucherzahl, Demografie, Warenkorb</td>
+							<td>Absprungrate (Bounce-Rate)</td>
+						</tr>
+						<tr>
+							<td>Breite Auswahl an Kursen</td>
+							<td>Attraktive Kursbeschreibung, Aktualität der Kurse</td>
+							<td>Kursbeschreibung anklicken, Verweildauer auf der Beschreibung, Bewertung anklicken</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<h1 class="r-fit-text">Hauptziel 2: Verkauf von möglichst vielen Kursen -
+					Online Marketing</h1>
+				<table>
+					<thead>
+						<tr>
+							<th>Erfolgsfaktor</th>
+							<th>Aktivitäten</th>
+							<th>Performance Metrics</th>
+							<th>KPIs</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Verkaufsorientierte Promotion</td>
+							<td>Sonderangebote/Sales</td>
+							<td>Einlösen von Rabatcodes</td>
+							<td>Anzahl Kunden durch Kampagne</td>
+						</tr>
+						<tr>
+							<td>Angebote für B2B</td>
+							<td>Kostenlose Demo anfordern/Gruppen Rabat</td>
+							<td>Anzahl Besucher im Bereich "Udemy Business", Anzahl abgesendeter Formulare</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<h1 class="r-fit-text">Dashboard Designvorschlag</h1>
+			</section>
+			<section
+				data-background-iframe="https://yannick93qw.github.io/fhgr-web-data-analytics-dashboard/#/dashboard"
+				data-background-interactive></section>
+			<section>
+				<h1 class="r-fit-text">Business Case</h1>
+			</section>
+
+			<section>
+				<h2 class="r-fit-text">Business Case - Einmalige Investitionen</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Einmalige Investitionen</th>
+							<th>Kosten</th>
+							<th>Annahme</th>
+							<th>Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Implementierung und Mitarbeiterschulung</td>
+							<td>10'000</td>
+							<td>Eingesetzte Arbeitszeit der Mitarbeiter (total 20 Arbeitstage)</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="important-text">10'000</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section>
+				<h2 class="r-fit-text">Business Case - Jährliche Investitionen</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Jährliche Investitionen</th>
+							<th>Kosten</th>
+							<th>Annahme</th>
+							<th>Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Premium Beitrag (ab 10 Mio. Hits)</td>
+							<td>150'000</td>
+							<td>Jährlicher Preis (gemäss neuer Preisliste 2022)</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Neue Mitarbeiter</td>
+							<td>1'000'000</td>
+							<td>Aufbau von 8 FTE für Reporting, Tracking und IT</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Overhead (GL, HR, Finanzen etc.)</td>
+							<td>100'000</td>
+							<td>Anteil auf Stufe Gesamtfirma: 10%</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>IT-Support</td>
+							<td>n/a</td>
+							<td>Bei der Premium-Version durch Google inkludiert</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="important-text">1'250'000</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section>
+				<h2 class="r-fit-text">Business Case - Total Investitionen</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Investitionsart</th>
+							<th>Kosten</th>
+							<th>Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Einmalige Investitionen</td>
+							<td>10'000</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Jährliche Investitionen</td>
+							<td>1'250'000</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td class="important-text">1'260'000</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section>
+				<h2 class="r-fit-text">Business Case - Nutzen I</h2>
+				<ul>
+					<li>Visualisierung und Darstellung relevanter Marketing-Daten sowie des Nutzerverhaltens</li>
+					<li>Aufzeigen von Stärken und Schwächen sowie Potentiale und Risiken</li>
+					<li>Live-Daten jederzeit abrufbar, Datenaktualität von 4h (Standard 24h)</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2 class="r-fit-text">Business Case - Nutzen II</h2>
+				<ul>
+					<li>Genauere Analyse möglich, da mehr Volumen verarbeitet und dargestellt werden kann</li>
+					<li>24/7 Support, Schulungshilfe von Mitarbeitenden sowie Unterstützung bei der Implementierung</li>
+					<li>Anfällige Vereinbarung mit Google bezüglich der Eigentumsrechten der Daten (nur mit Premium
+						möglich)</li>
+				</ul>
+			</section>
+
+
+			<section>
+				<h1 class="r-fit-text">Quellen</h1>
+				<ul>
+					<li><a href="https://about.udemy.com/" target="_blank">About Udemy</a></li>
 				</ul>
 			</section>
 		</div>
@@ -58,8 +379,9 @@
 		Reveal.initialize({
 			hash: true,
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
 	</script>
 </body>
+
 </html>

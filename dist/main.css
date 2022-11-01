@@ -1,0 +1,63 @@
+@import "./variables.css";
+
+.reveal {
+    background-color: var(--main-bg-color);
+}
+
+h1,
+h2,
+h3,
+q {
+    font-family: 'Urbanist', sans-serif !important;
+    color: var(--color-primary) !important;
+
+}
+
+.quoted-from {
+    color: var(--color-primary) !important;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+li {
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+
+
+p {
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+table {
+    font-family: 'Urbanist', sans-serif !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+table th {
+    color: var(--color-primary) !important;
+    font-size: 2rem !important;
+}
+
+table td {
+    font-size: 1.5rem !important;
+}
+
+.controls-arrow {
+    color: var(--color-primary) !important;
+}
+
+.progress {
+    color: var(--color-primary) !important;
+}
+
+.important-text {
+    color: var(--color-primary) !important;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+
+a {
+    color: var(--color-primary) !important;
+}
