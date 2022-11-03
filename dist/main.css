@@ -13,6 +13,10 @@ q {
 
 }
 
+.white {
+    color: white;
+}
+
 .quoted-from {
     color: var(--color-primary) !important;
     font-size: 0.8em;
