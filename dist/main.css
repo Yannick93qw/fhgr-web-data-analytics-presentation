@@ -6,16 +6,17 @@
 
 h1,
 h2,
-h3,
-q {
+h3 {
     font-family: 'Urbanist', sans-serif !important;
     color: var(--color-primary) !important;
 
 }
 
-.white {
-    color: white;
+q {
+    font-family: 'Urbanist', sans-serif !important;
+    color: white !important;
 }
+
 
 .quoted-from {
     color: var(--color-primary) !important;
@@ -83,10 +84,14 @@ a {
 
 .card-title {
     font-size: 2rem !important;
+    color: white !important;
+    font-weight: 200 !important;
 }
 
 .card-title-small {
     font-size: 1.5rem !important;
+    color: white !important;
+    font-weight: 200 !important;
 }
 
 .card-icon {
